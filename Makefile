@@ -1,4 +1,4 @@
-main: src/main.c
+main: ./src/main.c
 	gcc src/main.c -o builds/pi.exe
 	./builds/pi.exe
 
