@@ -1,8 +1,8 @@
-main: main.c
-	gcc main.c -o main
-	./main
+main: src/main.c
+	gcc src/main.c -o builds/pi.exe
+	./builds/pi.exe
 
 clean:
-	del main.exe
-	del main.o
-	del main.s
+	del .\builds\*.exe
+	del .\builds\*.o
+	del .\builds\*.s

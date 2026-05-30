@@ -1,8 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 
+int read();
+int write();
+int update();
+int delete();
+
 int main(void){
-    printf("");
+    printf("Welcome to PI Database REPL.\n");
+    printf("...\n");
+
+    // file to open 
+    FILE* f;
 
     // main loop
     for (;;){
@@ -26,3 +35,15 @@ int main(void){
     }
     return 0;
 }
+int read(){
+    return 0;
+};
+int write(){
+    return 0;
+};
+int update(){
+    return 0;
+};
+int delete(){
+    return 0;
+};
